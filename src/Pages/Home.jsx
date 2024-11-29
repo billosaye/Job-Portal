@@ -3,7 +3,7 @@ import { useOutletContext } from "react-router-dom";
 import Banner from "../Components/Banner";
 import Card from "../Components/Card";
 import Jobs from "../Components/Jobs";
-import Sidebar from "../Sidebar/sidebar";
+import Sidebar from "../Sidebar/Sidebar";
 import Newsletter from "../Components/Newsletter";
 
 const Home = () => {
