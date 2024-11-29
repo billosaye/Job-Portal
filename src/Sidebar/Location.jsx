@@ -18,9 +18,10 @@ const Location = ({ handleCategoryChange }) => {
         </label>
         <InputFied
           handleCategoryChange={handleCategoryChange}
-          value="London"
+          value="london"
           title="London"
           name="test"
+          id="test"
         />
 
         <InputFied

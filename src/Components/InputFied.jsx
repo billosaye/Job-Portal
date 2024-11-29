@@ -1,9 +1,9 @@
 import React from "react";
 
-const InputFied = ({ handleChange, value, title, name }) => {
+const InputFied = ({ handleCategoryChange, value, title, name }) => {
   return (
     <label className="sidebar-label-container">
-      <input type="radio" name={name} value={value} onChange={handleChange} />
+      <input type="radio" name={name} value={value} onChange={handleCategoryChange} />
       <span className="checkmark"></span>
       {title}
     </label>

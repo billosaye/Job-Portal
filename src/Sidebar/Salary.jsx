@@ -17,6 +17,7 @@ const Salary = ({ handleClick, handleCategoryChange }) => {
           value={30}
           title="<300000k"
           name="test2"
+        
         />
 
         <InputFied
@@ -31,6 +32,7 @@ const Salary = ({ handleClick, handleCategoryChange }) => {
           value={80}
           title="<800000k"
           name="test2"
+
         />
 
         <InputFied
